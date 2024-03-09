@@ -1,0 +1,14 @@
+<!-- Ensure item.titles are converted to HTML from String -->
+<!-- <%= item.title %> === HTML-->
+<!-- <%- item.title %> === STRING-->
+<script id="swissup-ajaxsearch-page-template-header" type="text/x-magento-template">
+    <h4 class="ajaxsearch-title"><span translate="'Resources'"></span></h4>
+</script>
+<script id="swissup-ajaxsearch-page-template" type="text/x-magento-template">
+    <div class="page-item-info">
+        <span class="qs-option-name">
+            <a href="<%= item.url %>"><%= item.title %></a>
+        </span>
+    </div>
+</script>
+
